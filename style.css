@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+
+/* header nav bar design  */
+.header {
+    width: 100%;
+    height: 5vh;
+    background-color: rgba(0, 0, 255, 0.81);
+    padding: 1em 0;
+
+
+}
+
+.nav-container {
+    margin: 0 20%;
+    display: flex;
+    justify-content: space-between;
+
+
+
+}
+
+.header-div1 {
+    display: flex;
+
+}
+
+.nav-container img {
+    height: 40px;
+    width: 40px;
+}
+
+.header-div1 p {
+    position: relative;
+    top: 2px;
+    left: 20px;
+    font-size: 30px;
+}
+
+.header-div2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-div2 a {
+    color: white;
+    text-decoration: none;
+    margin-right: 1em;
+}
+
+/* body part 1 start  */
+.main-container-body1 {
+    margin: 2em 10%;
+    display: grid;
+    grid-template-columns: auto;
+    height: 100vh;
+    background-color: white;
+    row-gap: 1me;
+
+
+}
+
+
+
+.top-player {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.top-player-heading {
+    padding: 2em 0 0 2em;
+
+}
+
+.top-player-images {
+    padding: 2em 0 0 2em;
+
+}
+
+.top-player img {
+    width: 40px;
+    height: 40px;
+}
+
+.top-player-images {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1em;
+}
+
+.top-blog {
+    margin-top: 0;
+}
+
+/* blog second part start  */
+.blog-main-part {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1em;
+
+}
+
+.blog-main-part img {
+    height: 100px;
+    width: 150px;
+
+}
+
+.blog-1 {
+    display: flex;
+    padding: 2em;
+}
+
+.blog-1 div {
+    margin-right: 1em;
+
+}
+
+.top-blog-heading {
+    padding-left: 2em;
+}
+
+hr {
+    height: 2px;
+    color: black;
+    background-color: black;
+    margin: 0 2em;
+}
+
+/* main containe body 2  */
+.main-container-body2 {
+    margin: 2em 10%;
+    background-color: white;
+    height: 50vh;
+}
+
+.body2-header p {
+    padding: 1em 0 2em 1em;
+    font-size: 30px;
+}
+
+.body2-courses {
+    display: flex;
+}
+
+.body2-courses>div {
+    padding: 0 2em 2em 2em;
+}
+
+.body2-courses img {
+    height: 100px;
+    width: 150px;
+
+}
+
+.text-color {
+    color: salmon;
+}
+
+.icon-container1 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.icon-container1 i {
+    color: yellow;
+}
+
+.time {
+    display: flex;
+    background-color: salmon;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    padding: 0.2em;
+    border-radius: 10px;
+}
+
+.time p {
+    margin-right: 2px;
+}
